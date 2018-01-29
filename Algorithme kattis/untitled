@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int x = 10;
+    hack((&x));
+}
+void hack(int *p)
+{
+    printf("%d\n", *p);
+}
+
